@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Matrix_Multiplication_Threads"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/media/muhammed/Shared/Work/CSED 19/C/3rd Year/Operating System/Matrix-Multiplication-Threads/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/media/muhammed/Shared/Work/CSED\ 19/C/3rd\ Year/Operating\ System/Matrix-Multiplication-Threads/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/media/muhammed/Shared/Work/CSED\ 19/C/3rd\ Year/Operating\ System/Matrix-Multiplication-Threads/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/media/muhammed/Shared/Work/CSED\ 19/C/3rd\ Year/Operating\ System/Matrix-Multiplication-Threads/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/media/muhammed/Shared/Work/CSED\ 19/C/3rd\ Year/Operating\ System/Matrix-Multiplication-Threads/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/media/muhammed/Shared/Work/CSED 19/C/3rd Year/Operating System/Matrix-Multiplication-Threads/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/media/muhammed/Shared/Work/CSED\ 19/C/3rd\ Year/Operating\ System/Matrix-Multiplication-Threads/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/media/muhammed/Shared/Work/CSED\ 19/C/3rd\ Year/Operating\ System/Matrix-Multiplication-Threads/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/media/muhammed/Shared/Work/CSED\ 19/C/3rd\ Year/Operating\ System/Matrix-Multiplication-Threads/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/media/muhammed/Shared/Work/CSED\ 19/C/3rd\ Year/Operating\ System/Matrix-Multiplication-Threads/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/media/muhammed/Shared/Work/CSED 19/C/3rd Year/Operating System/Matrix-Multiplication-Threads/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/media/muhammed/Shared/Work/CSED\ 19/C/3rd\ Year/Operating\ System/Matrix-Multiplication-Threads/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/media/muhammed/Shared/Work/CSED\ 19/C/3rd\ Year/Operating\ System/Matrix-Multiplication-Threads/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/media/muhammed/Shared/Work/CSED\ 19/C/3rd\ Year/Operating\ System/Matrix-Multiplication-Threads/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/media/muhammed/Shared/Work/CSED\ 19/C/3rd\ Year/Operating\ System/Matrix-Multiplication-Threads/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Matrix_Multiplication_Threads">
+				<Option output="/media/muhammed/Shared/Work/CSED 19/C/3rd Year/Operating System/Matrix-Multiplication-Threads/cmake-build-debug/Matrix_Multiplication_Threads" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/media/muhammed/Shared/Work/CSED 19/C/3rd Year/Operating System/Matrix-Multiplication-Threads/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/media/muhammed/Shared/Work/CSED\ 19/C/3rd\ Year/Operating\ System/Matrix-Multiplication-Threads/cmake-build-debug/Makefile&quot;  VERBOSE=1 Matrix_Multiplication_Threads"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/media/muhammed/Shared/Work/CSED\ 19/C/3rd\ Year/Operating\ System/Matrix-Multiplication-Threads/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/media/muhammed/Shared/Work/CSED\ 19/C/3rd\ Year/Operating\ System/Matrix-Multiplication-Threads/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/media/muhammed/Shared/Work/CSED\ 19/C/3rd\ Year/Operating\ System/Matrix-Multiplication-Threads/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Matrix_Multiplication_Threads/fast">
+				<Option output="/media/muhammed/Shared/Work/CSED 19/C/3rd Year/Operating System/Matrix-Multiplication-Threads/cmake-build-debug/Matrix_Multiplication_Threads" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/media/muhammed/Shared/Work/CSED 19/C/3rd Year/Operating System/Matrix-Multiplication-Threads/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/media/muhammed/Shared/Work/CSED\ 19/C/3rd\ Year/Operating\ System/Matrix-Multiplication-Threads/cmake-build-debug/Makefile&quot;  VERBOSE=1 Matrix_Multiplication_Threads/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/media/muhammed/Shared/Work/CSED\ 19/C/3rd\ Year/Operating\ System/Matrix-Multiplication-Threads/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/media/muhammed/Shared/Work/CSED\ 19/C/3rd\ Year/Operating\ System/Matrix-Multiplication-Threads/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/media/muhammed/Shared/Work/CSED\ 19/C/3rd\ Year/Operating\ System/Matrix-Multiplication-Threads/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/media/muhammed/Shared/Work/CSED 19/C/3rd Year/Operating System/Matrix-Multiplication-Threads/ThreadMaker/Threadmaker.c">
+			<Option target="Matrix_Multiplication_Threads"/>
+		</Unit>
+		<Unit filename="/media/muhammed/Shared/Work/CSED 19/C/3rd Year/Operating System/Matrix-Multiplication-Threads/ThreadMaker/Threadmaker.h">
+			<Option target="Matrix_Multiplication_Threads"/>
+		</Unit>
+		<Unit filename="/media/muhammed/Shared/Work/CSED 19/C/3rd Year/Operating System/Matrix-Multiplication-Threads/dataStructures/dataStructure.c">
+			<Option target="Matrix_Multiplication_Threads"/>
+		</Unit>
+		<Unit filename="/media/muhammed/Shared/Work/CSED 19/C/3rd Year/Operating System/Matrix-Multiplication-Threads/dataStructures/dataStructure.h">
+			<Option target="Matrix_Multiplication_Threads"/>
+		</Unit>
+		<Unit filename="/media/muhammed/Shared/Work/CSED 19/C/3rd Year/Operating System/Matrix-Multiplication-Threads/executers/executers.c">
+			<Option target="Matrix_Multiplication_Threads"/>
+		</Unit>
+		<Unit filename="/media/muhammed/Shared/Work/CSED 19/C/3rd Year/Operating System/Matrix-Multiplication-Threads/executers/executers.h">
+			<Option target="Matrix_Multiplication_Threads"/>
+		</Unit>
+		<Unit filename="/media/muhammed/Shared/Work/CSED 19/C/3rd Year/Operating System/Matrix-Multiplication-Threads/fileHandler/fileHandler.c">
+			<Option target="Matrix_Multiplication_Threads"/>
+		</Unit>
+		<Unit filename="/media/muhammed/Shared/Work/CSED 19/C/3rd Year/Operating System/Matrix-Multiplication-Threads/fileHandler/fileHandler.h">
+			<Option target="Matrix_Multiplication_Threads"/>
+		</Unit>
+		<Unit filename="/media/muhammed/Shared/Work/CSED 19/C/3rd Year/Operating System/Matrix-Multiplication-Threads/main.c">
+			<Option target="Matrix_Multiplication_Threads"/>
+		</Unit>
+		<Unit filename="/media/muhammed/Shared/Work/CSED 19/C/3rd Year/Operating System/Matrix-Multiplication-Threads/memoryManager/memoryMangement.c">
+			<Option target="Matrix_Multiplication_Threads"/>
+		</Unit>
+		<Unit filename="/media/muhammed/Shared/Work/CSED 19/C/3rd Year/Operating System/Matrix-Multiplication-Threads/memoryManager/memoryMangement.h">
+			<Option target="Matrix_Multiplication_Threads"/>
+		</Unit>
+		<Unit filename="/media/muhammed/Shared/Work/CSED 19/C/3rd Year/Operating System/Matrix-Multiplication-Threads/timeCalculator/timeCalculator.c">
+			<Option target="Matrix_Multiplication_Threads"/>
+		</Unit>
+		<Unit filename="/media/muhammed/Shared/Work/CSED 19/C/3rd Year/Operating System/Matrix-Multiplication-Threads/timeCalculator/timeCalculator.h">
+			<Option target="Matrix_Multiplication_Threads"/>
+		</Unit>
+		<Unit filename="/media/muhammed/Shared/Work/CSED 19/C/3rd Year/Operating System/Matrix-Multiplication-Threads/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

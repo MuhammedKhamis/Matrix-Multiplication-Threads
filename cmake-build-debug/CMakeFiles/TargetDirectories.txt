@@ -1,0 +1,3 @@
+/media/muhammed/Shared/Work/CSED 19/C/3rd Year/Operating System/Matrix-Multiplication-Threads/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/media/muhammed/Shared/Work/CSED 19/C/3rd Year/Operating System/Matrix-Multiplication-Threads/cmake-build-debug/CMakeFiles/edit_cache.dir
+/media/muhammed/Shared/Work/CSED 19/C/3rd Year/Operating System/Matrix-Multiplication-Threads/cmake-build-debug/CMakeFiles/Matrix_Multiplication_Threads.dir
