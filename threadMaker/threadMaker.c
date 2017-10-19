@@ -1,11 +1,16 @@
-#include "Threadmaker.h"
+#include "threadMaker.h"
 #include "../executers/executers.h"
+#include "../constants/constants.h"
 
 #include <pthread.h>
 #include <stdlib.h>
+#include <stdio.h>
 
 int threadByCell(Thread_info* info){
-    int sz = info->params.mat1->rows*info->params.mat2->cols;
+    int sz = (info->params.mat1->rows) * (info->params.mat2->cols);
+    if(sz > MAX_THREADS){
+        return -1;
+    }
     info->res=getEmptyMatrix(info->params.mat1->rows,info->params.mat2->cols);
     void* status;
     Thread_info* tmp;
@@ -32,6 +37,9 @@ int threadByCell(Thread_info* info){
 
 int threadByRow(Thread_info* info){
     int sz = info->params.mat1->rows;
+    if(sz > MAX_THREADS){
+        return -1;
+    }
     info->res=getEmptyMatrix(info->params.mat1->rows,info->params.mat2->cols);
     pthread_t threads[sz];
     void* status;

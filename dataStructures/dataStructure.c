@@ -10,8 +10,9 @@ Matrix* getEmptyMatrix(int row , int col){
     tmp->matrix = malloc(row*sizeof(*(tmp->matrix)));
     int i = 0;
     for(;i<row;i++){
-        tmp->matrix[i] = malloc(col*sizeof(*(tmp->matrix[i])));
-        memset(tmp->matrix[i],0,col*sizeof(*(tmp->matrix[i])));
+        size_t sz = col*sizeof(**(tmp->matrix));
+        tmp->matrix[i] = malloc(sz);
+        memset(tmp->matrix[i],0,sz);
     }
     return tmp;
 }

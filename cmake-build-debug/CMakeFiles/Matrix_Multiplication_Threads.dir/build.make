@@ -153,52 +153,52 @@ CMakeFiles/Matrix_Multiplication_Threads.dir/executers/executers.c.o.provides: C
 CMakeFiles/Matrix_Multiplication_Threads.dir/executers/executers.c.o.provides.build: CMakeFiles/Matrix_Multiplication_Threads.dir/executers/executers.c.o
 
 
-CMakeFiles/Matrix_Multiplication_Threads.dir/memoryManager/memoryMangement.c.o: CMakeFiles/Matrix_Multiplication_Threads.dir/flags.make
-CMakeFiles/Matrix_Multiplication_Threads.dir/memoryManager/memoryMangement.c.o: ../memoryManager/memoryMangement.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/media/muhammed/Shared/Work/CSED 19/C/3rd Year/Operating System/Matrix-Multiplication-Threads/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/Matrix_Multiplication_Threads.dir/memoryManager/memoryMangement.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Matrix_Multiplication_Threads.dir/memoryManager/memoryMangement.c.o   -c "/media/muhammed/Shared/Work/CSED 19/C/3rd Year/Operating System/Matrix-Multiplication-Threads/memoryManager/memoryMangement.c"
+CMakeFiles/Matrix_Multiplication_Threads.dir/memoryManagement/memoryManagement.c.o: CMakeFiles/Matrix_Multiplication_Threads.dir/flags.make
+CMakeFiles/Matrix_Multiplication_Threads.dir/memoryManagement/memoryManagement.c.o: ../memoryManagement/memoryManagement.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/media/muhammed/Shared/Work/CSED 19/C/3rd Year/Operating System/Matrix-Multiplication-Threads/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/Matrix_Multiplication_Threads.dir/memoryManagement/memoryManagement.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Matrix_Multiplication_Threads.dir/memoryManagement/memoryManagement.c.o   -c "/media/muhammed/Shared/Work/CSED 19/C/3rd Year/Operating System/Matrix-Multiplication-Threads/memoryManagement/memoryManagement.c"
 
-CMakeFiles/Matrix_Multiplication_Threads.dir/memoryManager/memoryMangement.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Matrix_Multiplication_Threads.dir/memoryManager/memoryMangement.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/media/muhammed/Shared/Work/CSED 19/C/3rd Year/Operating System/Matrix-Multiplication-Threads/memoryManager/memoryMangement.c" > CMakeFiles/Matrix_Multiplication_Threads.dir/memoryManager/memoryMangement.c.i
+CMakeFiles/Matrix_Multiplication_Threads.dir/memoryManagement/memoryManagement.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Matrix_Multiplication_Threads.dir/memoryManagement/memoryManagement.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/media/muhammed/Shared/Work/CSED 19/C/3rd Year/Operating System/Matrix-Multiplication-Threads/memoryManagement/memoryManagement.c" > CMakeFiles/Matrix_Multiplication_Threads.dir/memoryManagement/memoryManagement.c.i
 
-CMakeFiles/Matrix_Multiplication_Threads.dir/memoryManager/memoryMangement.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Matrix_Multiplication_Threads.dir/memoryManager/memoryMangement.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/media/muhammed/Shared/Work/CSED 19/C/3rd Year/Operating System/Matrix-Multiplication-Threads/memoryManager/memoryMangement.c" -o CMakeFiles/Matrix_Multiplication_Threads.dir/memoryManager/memoryMangement.c.s
+CMakeFiles/Matrix_Multiplication_Threads.dir/memoryManagement/memoryManagement.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Matrix_Multiplication_Threads.dir/memoryManagement/memoryManagement.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/media/muhammed/Shared/Work/CSED 19/C/3rd Year/Operating System/Matrix-Multiplication-Threads/memoryManagement/memoryManagement.c" -o CMakeFiles/Matrix_Multiplication_Threads.dir/memoryManagement/memoryManagement.c.s
 
-CMakeFiles/Matrix_Multiplication_Threads.dir/memoryManager/memoryMangement.c.o.requires:
+CMakeFiles/Matrix_Multiplication_Threads.dir/memoryManagement/memoryManagement.c.o.requires:
 
-.PHONY : CMakeFiles/Matrix_Multiplication_Threads.dir/memoryManager/memoryMangement.c.o.requires
+.PHONY : CMakeFiles/Matrix_Multiplication_Threads.dir/memoryManagement/memoryManagement.c.o.requires
 
-CMakeFiles/Matrix_Multiplication_Threads.dir/memoryManager/memoryMangement.c.o.provides: CMakeFiles/Matrix_Multiplication_Threads.dir/memoryManager/memoryMangement.c.o.requires
-	$(MAKE) -f CMakeFiles/Matrix_Multiplication_Threads.dir/build.make CMakeFiles/Matrix_Multiplication_Threads.dir/memoryManager/memoryMangement.c.o.provides.build
-.PHONY : CMakeFiles/Matrix_Multiplication_Threads.dir/memoryManager/memoryMangement.c.o.provides
+CMakeFiles/Matrix_Multiplication_Threads.dir/memoryManagement/memoryManagement.c.o.provides: CMakeFiles/Matrix_Multiplication_Threads.dir/memoryManagement/memoryManagement.c.o.requires
+	$(MAKE) -f CMakeFiles/Matrix_Multiplication_Threads.dir/build.make CMakeFiles/Matrix_Multiplication_Threads.dir/memoryManagement/memoryManagement.c.o.provides.build
+.PHONY : CMakeFiles/Matrix_Multiplication_Threads.dir/memoryManagement/memoryManagement.c.o.provides
 
-CMakeFiles/Matrix_Multiplication_Threads.dir/memoryManager/memoryMangement.c.o.provides.build: CMakeFiles/Matrix_Multiplication_Threads.dir/memoryManager/memoryMangement.c.o
+CMakeFiles/Matrix_Multiplication_Threads.dir/memoryManagement/memoryManagement.c.o.provides.build: CMakeFiles/Matrix_Multiplication_Threads.dir/memoryManagement/memoryManagement.c.o
 
 
-CMakeFiles/Matrix_Multiplication_Threads.dir/ThreadMaker/Threadmaker.c.o: CMakeFiles/Matrix_Multiplication_Threads.dir/flags.make
-CMakeFiles/Matrix_Multiplication_Threads.dir/ThreadMaker/Threadmaker.c.o: ../ThreadMaker/Threadmaker.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/media/muhammed/Shared/Work/CSED 19/C/3rd Year/Operating System/Matrix-Multiplication-Threads/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/Matrix_Multiplication_Threads.dir/ThreadMaker/Threadmaker.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Matrix_Multiplication_Threads.dir/ThreadMaker/Threadmaker.c.o   -c "/media/muhammed/Shared/Work/CSED 19/C/3rd Year/Operating System/Matrix-Multiplication-Threads/ThreadMaker/Threadmaker.c"
+CMakeFiles/Matrix_Multiplication_Threads.dir/threadMaker/threadMaker.c.o: CMakeFiles/Matrix_Multiplication_Threads.dir/flags.make
+CMakeFiles/Matrix_Multiplication_Threads.dir/threadMaker/threadMaker.c.o: ../threadMaker/threadMaker.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/media/muhammed/Shared/Work/CSED 19/C/3rd Year/Operating System/Matrix-Multiplication-Threads/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/Matrix_Multiplication_Threads.dir/threadMaker/threadMaker.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Matrix_Multiplication_Threads.dir/threadMaker/threadMaker.c.o   -c "/media/muhammed/Shared/Work/CSED 19/C/3rd Year/Operating System/Matrix-Multiplication-Threads/threadMaker/threadMaker.c"
 
-CMakeFiles/Matrix_Multiplication_Threads.dir/ThreadMaker/Threadmaker.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Matrix_Multiplication_Threads.dir/ThreadMaker/Threadmaker.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/media/muhammed/Shared/Work/CSED 19/C/3rd Year/Operating System/Matrix-Multiplication-Threads/ThreadMaker/Threadmaker.c" > CMakeFiles/Matrix_Multiplication_Threads.dir/ThreadMaker/Threadmaker.c.i
+CMakeFiles/Matrix_Multiplication_Threads.dir/threadMaker/threadMaker.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Matrix_Multiplication_Threads.dir/threadMaker/threadMaker.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/media/muhammed/Shared/Work/CSED 19/C/3rd Year/Operating System/Matrix-Multiplication-Threads/threadMaker/threadMaker.c" > CMakeFiles/Matrix_Multiplication_Threads.dir/threadMaker/threadMaker.c.i
 
-CMakeFiles/Matrix_Multiplication_Threads.dir/ThreadMaker/Threadmaker.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Matrix_Multiplication_Threads.dir/ThreadMaker/Threadmaker.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/media/muhammed/Shared/Work/CSED 19/C/3rd Year/Operating System/Matrix-Multiplication-Threads/ThreadMaker/Threadmaker.c" -o CMakeFiles/Matrix_Multiplication_Threads.dir/ThreadMaker/Threadmaker.c.s
+CMakeFiles/Matrix_Multiplication_Threads.dir/threadMaker/threadMaker.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Matrix_Multiplication_Threads.dir/threadMaker/threadMaker.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/media/muhammed/Shared/Work/CSED 19/C/3rd Year/Operating System/Matrix-Multiplication-Threads/threadMaker/threadMaker.c" -o CMakeFiles/Matrix_Multiplication_Threads.dir/threadMaker/threadMaker.c.s
 
-CMakeFiles/Matrix_Multiplication_Threads.dir/ThreadMaker/Threadmaker.c.o.requires:
+CMakeFiles/Matrix_Multiplication_Threads.dir/threadMaker/threadMaker.c.o.requires:
 
-.PHONY : CMakeFiles/Matrix_Multiplication_Threads.dir/ThreadMaker/Threadmaker.c.o.requires
+.PHONY : CMakeFiles/Matrix_Multiplication_Threads.dir/threadMaker/threadMaker.c.o.requires
 
-CMakeFiles/Matrix_Multiplication_Threads.dir/ThreadMaker/Threadmaker.c.o.provides: CMakeFiles/Matrix_Multiplication_Threads.dir/ThreadMaker/Threadmaker.c.o.requires
-	$(MAKE) -f CMakeFiles/Matrix_Multiplication_Threads.dir/build.make CMakeFiles/Matrix_Multiplication_Threads.dir/ThreadMaker/Threadmaker.c.o.provides.build
-.PHONY : CMakeFiles/Matrix_Multiplication_Threads.dir/ThreadMaker/Threadmaker.c.o.provides
+CMakeFiles/Matrix_Multiplication_Threads.dir/threadMaker/threadMaker.c.o.provides: CMakeFiles/Matrix_Multiplication_Threads.dir/threadMaker/threadMaker.c.o.requires
+	$(MAKE) -f CMakeFiles/Matrix_Multiplication_Threads.dir/build.make CMakeFiles/Matrix_Multiplication_Threads.dir/threadMaker/threadMaker.c.o.provides.build
+.PHONY : CMakeFiles/Matrix_Multiplication_Threads.dir/threadMaker/threadMaker.c.o.provides
 
-CMakeFiles/Matrix_Multiplication_Threads.dir/ThreadMaker/Threadmaker.c.o.provides.build: CMakeFiles/Matrix_Multiplication_Threads.dir/ThreadMaker/Threadmaker.c.o
+CMakeFiles/Matrix_Multiplication_Threads.dir/threadMaker/threadMaker.c.o.provides.build: CMakeFiles/Matrix_Multiplication_Threads.dir/threadMaker/threadMaker.c.o
 
 
 CMakeFiles/Matrix_Multiplication_Threads.dir/dataStructures/dataStructure.c.o: CMakeFiles/Matrix_Multiplication_Threads.dir/flags.make
@@ -231,8 +231,8 @@ Matrix_Multiplication_Threads_OBJECTS = \
 "CMakeFiles/Matrix_Multiplication_Threads.dir/fileHandler/fileHandler.c.o" \
 "CMakeFiles/Matrix_Multiplication_Threads.dir/timeCalculator/timeCalculator.c.o" \
 "CMakeFiles/Matrix_Multiplication_Threads.dir/executers/executers.c.o" \
-"CMakeFiles/Matrix_Multiplication_Threads.dir/memoryManager/memoryMangement.c.o" \
-"CMakeFiles/Matrix_Multiplication_Threads.dir/ThreadMaker/Threadmaker.c.o" \
+"CMakeFiles/Matrix_Multiplication_Threads.dir/memoryManagement/memoryManagement.c.o" \
+"CMakeFiles/Matrix_Multiplication_Threads.dir/threadMaker/threadMaker.c.o" \
 "CMakeFiles/Matrix_Multiplication_Threads.dir/dataStructures/dataStructure.c.o"
 
 # External object files for target Matrix_Multiplication_Threads
@@ -242,8 +242,8 @@ Matrix_Multiplication_Threads: CMakeFiles/Matrix_Multiplication_Threads.dir/main
 Matrix_Multiplication_Threads: CMakeFiles/Matrix_Multiplication_Threads.dir/fileHandler/fileHandler.c.o
 Matrix_Multiplication_Threads: CMakeFiles/Matrix_Multiplication_Threads.dir/timeCalculator/timeCalculator.c.o
 Matrix_Multiplication_Threads: CMakeFiles/Matrix_Multiplication_Threads.dir/executers/executers.c.o
-Matrix_Multiplication_Threads: CMakeFiles/Matrix_Multiplication_Threads.dir/memoryManager/memoryMangement.c.o
-Matrix_Multiplication_Threads: CMakeFiles/Matrix_Multiplication_Threads.dir/ThreadMaker/Threadmaker.c.o
+Matrix_Multiplication_Threads: CMakeFiles/Matrix_Multiplication_Threads.dir/memoryManagement/memoryManagement.c.o
+Matrix_Multiplication_Threads: CMakeFiles/Matrix_Multiplication_Threads.dir/threadMaker/threadMaker.c.o
 Matrix_Multiplication_Threads: CMakeFiles/Matrix_Multiplication_Threads.dir/dataStructures/dataStructure.c.o
 Matrix_Multiplication_Threads: CMakeFiles/Matrix_Multiplication_Threads.dir/build.make
 Matrix_Multiplication_Threads: CMakeFiles/Matrix_Multiplication_Threads.dir/link.txt
@@ -259,8 +259,8 @@ CMakeFiles/Matrix_Multiplication_Threads.dir/requires: CMakeFiles/Matrix_Multipl
 CMakeFiles/Matrix_Multiplication_Threads.dir/requires: CMakeFiles/Matrix_Multiplication_Threads.dir/fileHandler/fileHandler.c.o.requires
 CMakeFiles/Matrix_Multiplication_Threads.dir/requires: CMakeFiles/Matrix_Multiplication_Threads.dir/timeCalculator/timeCalculator.c.o.requires
 CMakeFiles/Matrix_Multiplication_Threads.dir/requires: CMakeFiles/Matrix_Multiplication_Threads.dir/executers/executers.c.o.requires
-CMakeFiles/Matrix_Multiplication_Threads.dir/requires: CMakeFiles/Matrix_Multiplication_Threads.dir/memoryManager/memoryMangement.c.o.requires
-CMakeFiles/Matrix_Multiplication_Threads.dir/requires: CMakeFiles/Matrix_Multiplication_Threads.dir/ThreadMaker/Threadmaker.c.o.requires
+CMakeFiles/Matrix_Multiplication_Threads.dir/requires: CMakeFiles/Matrix_Multiplication_Threads.dir/memoryManagement/memoryManagement.c.o.requires
+CMakeFiles/Matrix_Multiplication_Threads.dir/requires: CMakeFiles/Matrix_Multiplication_Threads.dir/threadMaker/threadMaker.c.o.requires
 CMakeFiles/Matrix_Multiplication_Threads.dir/requires: CMakeFiles/Matrix_Multiplication_Threads.dir/dataStructures/dataStructure.c.o.requires
 
 .PHONY : CMakeFiles/Matrix_Multiplication_Threads.dir/requires

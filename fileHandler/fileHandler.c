@@ -29,14 +29,15 @@ int writeIntoFile(char* fileName,Matrix* matrix){
 Matrix* readFromFile(char* fileName){
     FILE* fp = fopen(fileName,"r");
     if(fp==NULL){
-        return NULL;
+        fprintf(stderr,"File not found\n");
+        exit(1);
     }
     Matrix* mat = malloc(sizeof(*mat));
     int row,col;
     fscanf(fp,"row=%d col=%d",&row,&col);
     mat->rows=row;
     mat->cols=col;
-    int** matrix = malloc(row*sizeof(*matrix));
+    type** matrix = malloc(row*sizeof(*matrix));
     int i = 0;
     for(;i<row;i++){
         matrix[i] = malloc(col*sizeof(*matrix[i]));

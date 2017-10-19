@@ -12,7 +12,12 @@ void calculateTime(Thread_info* info, int (*functionPtr)(Thread_info*)){
     int sz = (*functionPtr)(info);
 
     gettimeofday(&stop, NULL); //end checking time
-    printf("Microseconds taken: %lu\n", stop.tv_usec - start.tv_usec);
-    printf("Threads used: %d\n", sz);
+    if(sz == -1){
+        fprintf(stderr,"Can't generate that number of threads for this method\n");
+    }else {
+        printf("Microseconds taken: %lu\n", stop.tv_usec - start.tv_usec);
+        printf("Threads used: %d\n", sz);
+    }
+    printf("-----------------------------------------------------\n");
 
 }

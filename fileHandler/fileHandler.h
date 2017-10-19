@@ -3,6 +3,8 @@
 
 #include "../dataStructures/dataStructure.h"
 
+typedef int type;
+
 
 int writeIntoFile(char* fileName, Matrix* matrix);
 

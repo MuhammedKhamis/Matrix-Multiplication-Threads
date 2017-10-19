@@ -123,33 +123,6 @@ Matrix_Multiplication_Threads/fast:
 	$(MAKE) -f CMakeFiles/Matrix_Multiplication_Threads.dir/build.make CMakeFiles/Matrix_Multiplication_Threads.dir/build
 .PHONY : Matrix_Multiplication_Threads/fast
 
-ThreadMaker/Threadmaker.o: ThreadMaker/Threadmaker.c.o
-
-.PHONY : ThreadMaker/Threadmaker.o
-
-# target to build an object file
-ThreadMaker/Threadmaker.c.o:
-	$(MAKE) -f CMakeFiles/Matrix_Multiplication_Threads.dir/build.make CMakeFiles/Matrix_Multiplication_Threads.dir/ThreadMaker/Threadmaker.c.o
-.PHONY : ThreadMaker/Threadmaker.c.o
-
-ThreadMaker/Threadmaker.i: ThreadMaker/Threadmaker.c.i
-
-.PHONY : ThreadMaker/Threadmaker.i
-
-# target to preprocess a source file
-ThreadMaker/Threadmaker.c.i:
-	$(MAKE) -f CMakeFiles/Matrix_Multiplication_Threads.dir/build.make CMakeFiles/Matrix_Multiplication_Threads.dir/ThreadMaker/Threadmaker.c.i
-.PHONY : ThreadMaker/Threadmaker.c.i
-
-ThreadMaker/Threadmaker.s: ThreadMaker/Threadmaker.c.s
-
-.PHONY : ThreadMaker/Threadmaker.s
-
-# target to generate assembly for a file
-ThreadMaker/Threadmaker.c.s:
-	$(MAKE) -f CMakeFiles/Matrix_Multiplication_Threads.dir/build.make CMakeFiles/Matrix_Multiplication_Threads.dir/ThreadMaker/Threadmaker.c.s
-.PHONY : ThreadMaker/Threadmaker.c.s
-
 dataStructures/dataStructure.o: dataStructures/dataStructure.c.o
 
 .PHONY : dataStructures/dataStructure.o
@@ -258,32 +231,59 @@ main.c.s:
 	$(MAKE) -f CMakeFiles/Matrix_Multiplication_Threads.dir/build.make CMakeFiles/Matrix_Multiplication_Threads.dir/main.c.s
 .PHONY : main.c.s
 
-memoryManager/memoryMangement.o: memoryManager/memoryMangement.c.o
+memoryManagement/memoryManagement.o: memoryManagement/memoryManagement.c.o
 
-.PHONY : memoryManager/memoryMangement.o
+.PHONY : memoryManagement/memoryManagement.o
 
 # target to build an object file
-memoryManager/memoryMangement.c.o:
-	$(MAKE) -f CMakeFiles/Matrix_Multiplication_Threads.dir/build.make CMakeFiles/Matrix_Multiplication_Threads.dir/memoryManager/memoryMangement.c.o
-.PHONY : memoryManager/memoryMangement.c.o
+memoryManagement/memoryManagement.c.o:
+	$(MAKE) -f CMakeFiles/Matrix_Multiplication_Threads.dir/build.make CMakeFiles/Matrix_Multiplication_Threads.dir/memoryManagement/memoryManagement.c.o
+.PHONY : memoryManagement/memoryManagement.c.o
 
-memoryManager/memoryMangement.i: memoryManager/memoryMangement.c.i
+memoryManagement/memoryManagement.i: memoryManagement/memoryManagement.c.i
 
-.PHONY : memoryManager/memoryMangement.i
+.PHONY : memoryManagement/memoryManagement.i
 
 # target to preprocess a source file
-memoryManager/memoryMangement.c.i:
-	$(MAKE) -f CMakeFiles/Matrix_Multiplication_Threads.dir/build.make CMakeFiles/Matrix_Multiplication_Threads.dir/memoryManager/memoryMangement.c.i
-.PHONY : memoryManager/memoryMangement.c.i
+memoryManagement/memoryManagement.c.i:
+	$(MAKE) -f CMakeFiles/Matrix_Multiplication_Threads.dir/build.make CMakeFiles/Matrix_Multiplication_Threads.dir/memoryManagement/memoryManagement.c.i
+.PHONY : memoryManagement/memoryManagement.c.i
 
-memoryManager/memoryMangement.s: memoryManager/memoryMangement.c.s
+memoryManagement/memoryManagement.s: memoryManagement/memoryManagement.c.s
 
-.PHONY : memoryManager/memoryMangement.s
+.PHONY : memoryManagement/memoryManagement.s
 
 # target to generate assembly for a file
-memoryManager/memoryMangement.c.s:
-	$(MAKE) -f CMakeFiles/Matrix_Multiplication_Threads.dir/build.make CMakeFiles/Matrix_Multiplication_Threads.dir/memoryManager/memoryMangement.c.s
-.PHONY : memoryManager/memoryMangement.c.s
+memoryManagement/memoryManagement.c.s:
+	$(MAKE) -f CMakeFiles/Matrix_Multiplication_Threads.dir/build.make CMakeFiles/Matrix_Multiplication_Threads.dir/memoryManagement/memoryManagement.c.s
+.PHONY : memoryManagement/memoryManagement.c.s
+
+threadMaker/threadMaker.o: threadMaker/threadMaker.c.o
+
+.PHONY : threadMaker/threadMaker.o
+
+# target to build an object file
+threadMaker/threadMaker.c.o:
+	$(MAKE) -f CMakeFiles/Matrix_Multiplication_Threads.dir/build.make CMakeFiles/Matrix_Multiplication_Threads.dir/threadMaker/threadMaker.c.o
+.PHONY : threadMaker/threadMaker.c.o
+
+threadMaker/threadMaker.i: threadMaker/threadMaker.c.i
+
+.PHONY : threadMaker/threadMaker.i
+
+# target to preprocess a source file
+threadMaker/threadMaker.c.i:
+	$(MAKE) -f CMakeFiles/Matrix_Multiplication_Threads.dir/build.make CMakeFiles/Matrix_Multiplication_Threads.dir/threadMaker/threadMaker.c.i
+.PHONY : threadMaker/threadMaker.c.i
+
+threadMaker/threadMaker.s: threadMaker/threadMaker.c.s
+
+.PHONY : threadMaker/threadMaker.s
+
+# target to generate assembly for a file
+threadMaker/threadMaker.c.s:
+	$(MAKE) -f CMakeFiles/Matrix_Multiplication_Threads.dir/build.make CMakeFiles/Matrix_Multiplication_Threads.dir/threadMaker/threadMaker.c.s
+.PHONY : threadMaker/threadMaker.c.s
 
 timeCalculator/timeCalculator.o: timeCalculator/timeCalculator.c.o
 
@@ -321,9 +321,6 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Matrix_Multiplication_Threads"
-	@echo "... ThreadMaker/Threadmaker.o"
-	@echo "... ThreadMaker/Threadmaker.i"
-	@echo "... ThreadMaker/Threadmaker.s"
 	@echo "... dataStructures/dataStructure.o"
 	@echo "... dataStructures/dataStructure.i"
 	@echo "... dataStructures/dataStructure.s"
@@ -336,9 +333,12 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... memoryManager/memoryMangement.o"
-	@echo "... memoryManager/memoryMangement.i"
-	@echo "... memoryManager/memoryMangement.s"
+	@echo "... memoryManagement/memoryManagement.o"
+	@echo "... memoryManagement/memoryManagement.i"
+	@echo "... memoryManagement/memoryManagement.s"
+	@echo "... threadMaker/threadMaker.o"
+	@echo "... threadMaker/threadMaker.i"
+	@echo "... threadMaker/threadMaker.s"
 	@echo "... timeCalculator/timeCalculator.o"
 	@echo "... timeCalculator/timeCalculator.i"
 	@echo "... timeCalculator/timeCalculator.s"
