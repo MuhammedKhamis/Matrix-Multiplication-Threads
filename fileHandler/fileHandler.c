@@ -17,7 +17,6 @@ int writeIntoFile(char* fileName,Matrix* matrix){
             fprintf(fp,"%d\t",matrix->matrix[i][j]);
             j++;
         }
-        free(matrix->matrix[i]);
         fprintf(fp,"\n");
         i++;
     }

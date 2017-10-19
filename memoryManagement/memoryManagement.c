@@ -5,7 +5,7 @@
 
 void freeMatrix(Matrix* matrix){
     int i =0;
-    for(;i<matrix->rows;i++){
+    for(;i< (matrix->rows);i++){
         free(matrix->matrix[i]);
     }
     free(matrix->matrix);
