@@ -1,4 +1,5 @@
 #include "executers.h"
+#include "../debug/debug.h"
 
 
 void* computeCell(void* thread_info){

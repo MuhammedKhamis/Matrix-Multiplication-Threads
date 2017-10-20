@@ -26,8 +26,8 @@ int threadByCell(Thread_info* info){
         tmp = malloc(sizeof(*tmp));
         tmp->res = info->res;
         tmp->params=info->params;
-        tmp->params.row = (i/info->params.mat1->rows);
-        tmp->params.col = (i%info->params.mat1->rows);
+        tmp->params.row = (i/info->params.mat2->cols);
+        tmp->params.col = (i%info->params.mat2->cols);
         int rc = pthread_create(&threads[i], NULL, computeCell, (void *)tmp);
         if (rc){
             errorMessege();
@@ -74,6 +74,7 @@ int threadByRow(Thread_info* info){
 int threadByMatrix(Thread_info* info){
     pthread_t thread;
     info->res=getEmptyMatrix(info->params.mat1->rows,info->params.mat2->cols);
+    //computeAll(info);
     int rc = pthread_create(&thread, NULL, computeAll, (void *)info);
     if (rc){
         errorMessege();

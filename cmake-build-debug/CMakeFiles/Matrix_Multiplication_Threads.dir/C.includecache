@@ -23,6 +23,8 @@ stdio.h
 /media/muhammed/Shared/Work/CSED 19/C/3rd Year/Operating System/Matrix-Multiplication-Threads/executers/executers.c
 executers.h
 /media/muhammed/Shared/Work/CSED 19/C/3rd Year/Operating System/Matrix-Multiplication-Threads/executers/executers.h
+../debug/debug.h
+/media/muhammed/Shared/Work/CSED 19/C/3rd Year/Operating System/Matrix-Multiplication-Threads/debug/debug.h
 
 /media/muhammed/Shared/Work/CSED 19/C/3rd Year/Operating System/Matrix-Multiplication-Threads/executers/executers.h
 ../dataStructures/dataStructure.h

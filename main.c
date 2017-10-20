@@ -38,13 +38,9 @@ int main(int argc , char* argv[]) {
             exit(1);
         }
     //
-    //////////////////////// For Debugging ///////////////////////////
-    printMatrix(info->params.mat1);
-    ////////////////////////////////////////////////////
     if(!calculateTime(info,&threadByCell))
         writeIntoFile(strcat(val[2],"_1"),info->res);
     if(!calculateTime(info,&threadByRow))
         writeIntoFile(strcat(val[3],"_2"),info->res);
-    //calculateTime(info,&threadByMatrix);
     freeThread_info(info);
 }

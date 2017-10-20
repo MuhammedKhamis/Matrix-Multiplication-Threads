@@ -6,6 +6,7 @@ CMakeFiles/Matrix_Multiplication_Threads.dir/debug/debug.c.o: ../debug/debug.c
 CMakeFiles/Matrix_Multiplication_Threads.dir/debug/debug.c.o: ../debug/debug.h
 
 CMakeFiles/Matrix_Multiplication_Threads.dir/executers/executers.c.o: ../dataStructures/dataStructure.h
+CMakeFiles/Matrix_Multiplication_Threads.dir/executers/executers.c.o: ../debug/debug.h
 CMakeFiles/Matrix_Multiplication_Threads.dir/executers/executers.c.o: ../executers/executers.c
 CMakeFiles/Matrix_Multiplication_Threads.dir/executers/executers.c.o: ../executers/executers.h
 
