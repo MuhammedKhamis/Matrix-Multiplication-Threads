@@ -1,6 +1,5 @@
 #include "fileHandler.h"
 
-
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -42,7 +41,7 @@ Matrix* readFromFile(char* fileName){
         matrix[i] = malloc(col*sizeof(*matrix[i]));
         int j = 0;
         for(;j<col;j++){
-            fscanf(fp,"%d",&matrix[i][j]);
+            fscanf(fp,"%d ",&matrix[i][j]);
         }
     }
     fclose(fp);

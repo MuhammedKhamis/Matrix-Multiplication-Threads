@@ -10,6 +10,16 @@
 
 /media/muhammed/Shared/Work/CSED 19/C/3rd Year/Operating System/Matrix-Multiplication-Threads/dataStructures/dataStructure.h
 
+/media/muhammed/Shared/Work/CSED 19/C/3rd Year/Operating System/Matrix-Multiplication-Threads/debug/debug.c
+debug.h
+/media/muhammed/Shared/Work/CSED 19/C/3rd Year/Operating System/Matrix-Multiplication-Threads/debug/debug.h
+stdio.h
+-
+
+/media/muhammed/Shared/Work/CSED 19/C/3rd Year/Operating System/Matrix-Multiplication-Threads/debug/debug.h
+../dataStructures/dataStructure.h
+/media/muhammed/Shared/Work/CSED 19/C/3rd Year/Operating System/Matrix-Multiplication-Threads/dataStructures/dataStructure.h
+
 /media/muhammed/Shared/Work/CSED 19/C/3rd Year/Operating System/Matrix-Multiplication-Threads/executers/executers.c
 executers.h
 /media/muhammed/Shared/Work/CSED 19/C/3rd Year/Operating System/Matrix-Multiplication-Threads/executers/executers.h
@@ -43,6 +53,8 @@ memoryManagement/memoryManagement.h
 /media/muhammed/Shared/Work/CSED 19/C/3rd Year/Operating System/Matrix-Multiplication-Threads/memoryManagement/memoryManagement.h
 constants/constants.h
 /media/muhammed/Shared/Work/CSED 19/C/3rd Year/Operating System/Matrix-Multiplication-Threads/constants/constants.h
+debug/debug.h
+/media/muhammed/Shared/Work/CSED 19/C/3rd Year/Operating System/Matrix-Multiplication-Threads/debug/debug.h
 stdlib.h
 -
 string.h

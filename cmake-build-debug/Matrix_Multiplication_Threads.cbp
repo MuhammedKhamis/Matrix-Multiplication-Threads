@@ -90,6 +90,12 @@
 		<Unit filename="/media/muhammed/Shared/Work/CSED 19/C/3rd Year/Operating System/Matrix-Multiplication-Threads/dataStructures/dataStructure.h">
 			<Option target="Matrix_Multiplication_Threads"/>
 		</Unit>
+		<Unit filename="/media/muhammed/Shared/Work/CSED 19/C/3rd Year/Operating System/Matrix-Multiplication-Threads/debug/debug.c">
+			<Option target="Matrix_Multiplication_Threads"/>
+		</Unit>
+		<Unit filename="/media/muhammed/Shared/Work/CSED 19/C/3rd Year/Operating System/Matrix-Multiplication-Threads/debug/debug.h">
+			<Option target="Matrix_Multiplication_Threads"/>
+		</Unit>
 		<Unit filename="/media/muhammed/Shared/Work/CSED 19/C/3rd Year/Operating System/Matrix-Multiplication-Threads/executers/executers.c">
 			<Option target="Matrix_Multiplication_Threads"/>
 		</Unit>

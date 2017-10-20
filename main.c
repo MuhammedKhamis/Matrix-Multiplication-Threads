@@ -4,6 +4,7 @@
 #include "timeCalculator/timeCalculator.h"
 #include "memoryManagement/memoryManagement.h"
 #include "constants/constants.h"
+#include "debug/debug.h"
 
 #include <stdlib.h>
 #include <string.h>
@@ -39,10 +40,13 @@ int main(int argc , char* argv[]) {
             exit(1);
         }
     //
-    calculateTime(info,&threadByCell);
-    writeIntoFile(strcat(dest1,"_1"),info->res);
-    calculateTime(info,&threadByRow);
-    writeIntoFile(strcat(dest2,"_2"),info->res);
+    //////////////////////// For Debugging ///////////////////////////
+    printMatrix(info->params.mat1);
+    ////////////////////////////////////////////////////
+    if(!calculateTime(info,&threadByCell))
+        writeIntoFile(strcat(dest1,"_1"),info->res);
+    if(!calculateTime(info,&threadByRow))
+        writeIntoFile(strcat(dest2,"_2"),info->res);
     //calculateTime(info,&threadByMatrix);
     freeThread_info(info);
 }

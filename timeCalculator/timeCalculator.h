@@ -6,7 +6,7 @@
 typedef int (*functionPtr)(Thread_info*);
 
 
-void calculateTime(Thread_info* info, int (*functionPtr)(Thread_info*));
+int calculateTime(Thread_info* info, int (*functionPtr)(Thread_info*));
 
 
 #endif //MATRIX_MULTIPLICATION_THREADS_TIMECALCULATOR_H

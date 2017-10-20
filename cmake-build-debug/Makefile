@@ -123,6 +123,33 @@ Matrix_Multiplication_Threads/fast:
 	$(MAKE) -f CMakeFiles/Matrix_Multiplication_Threads.dir/build.make CMakeFiles/Matrix_Multiplication_Threads.dir/build
 .PHONY : Matrix_Multiplication_Threads/fast
 
+debug/debug.o: debug/debug.c.o
+
+.PHONY : debug/debug.o
+
+# target to build an object file
+debug/debug.c.o:
+	$(MAKE) -f CMakeFiles/Matrix_Multiplication_Threads.dir/build.make CMakeFiles/Matrix_Multiplication_Threads.dir/debug/debug.c.o
+.PHONY : debug/debug.c.o
+
+debug/debug.i: debug/debug.c.i
+
+.PHONY : debug/debug.i
+
+# target to preprocess a source file
+debug/debug.c.i:
+	$(MAKE) -f CMakeFiles/Matrix_Multiplication_Threads.dir/build.make CMakeFiles/Matrix_Multiplication_Threads.dir/debug/debug.c.i
+.PHONY : debug/debug.c.i
+
+debug/debug.s: debug/debug.c.s
+
+.PHONY : debug/debug.s
+
+# target to generate assembly for a file
+debug/debug.c.s:
+	$(MAKE) -f CMakeFiles/Matrix_Multiplication_Threads.dir/build.make CMakeFiles/Matrix_Multiplication_Threads.dir/debug/debug.c.s
+.PHONY : debug/debug.c.s
+
 executers/executers.o: executers/executers.c.o
 
 .PHONY : executers/executers.o
@@ -294,6 +321,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Matrix_Multiplication_Threads"
+	@echo "... debug/debug.o"
+	@echo "... debug/debug.i"
+	@echo "... debug/debug.s"
 	@echo "... executers/executers.o"
 	@echo "... executers/executers.i"
 	@echo "... executers/executers.s"
