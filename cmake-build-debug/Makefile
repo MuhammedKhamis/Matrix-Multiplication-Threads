@@ -123,33 +123,6 @@ Matrix_Multiplication_Threads/fast:
 	$(MAKE) -f CMakeFiles/Matrix_Multiplication_Threads.dir/build.make CMakeFiles/Matrix_Multiplication_Threads.dir/build
 .PHONY : Matrix_Multiplication_Threads/fast
 
-dataStructures/dataStructure.o: dataStructures/dataStructure.c.o
-
-.PHONY : dataStructures/dataStructure.o
-
-# target to build an object file
-dataStructures/dataStructure.c.o:
-	$(MAKE) -f CMakeFiles/Matrix_Multiplication_Threads.dir/build.make CMakeFiles/Matrix_Multiplication_Threads.dir/dataStructures/dataStructure.c.o
-.PHONY : dataStructures/dataStructure.c.o
-
-dataStructures/dataStructure.i: dataStructures/dataStructure.c.i
-
-.PHONY : dataStructures/dataStructure.i
-
-# target to preprocess a source file
-dataStructures/dataStructure.c.i:
-	$(MAKE) -f CMakeFiles/Matrix_Multiplication_Threads.dir/build.make CMakeFiles/Matrix_Multiplication_Threads.dir/dataStructures/dataStructure.c.i
-.PHONY : dataStructures/dataStructure.c.i
-
-dataStructures/dataStructure.s: dataStructures/dataStructure.c.s
-
-.PHONY : dataStructures/dataStructure.s
-
-# target to generate assembly for a file
-dataStructures/dataStructure.c.s:
-	$(MAKE) -f CMakeFiles/Matrix_Multiplication_Threads.dir/build.make CMakeFiles/Matrix_Multiplication_Threads.dir/dataStructures/dataStructure.c.s
-.PHONY : dataStructures/dataStructure.c.s
-
 executers/executers.o: executers/executers.c.o
 
 .PHONY : executers/executers.o
@@ -321,9 +294,6 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Matrix_Multiplication_Threads"
-	@echo "... dataStructures/dataStructure.o"
-	@echo "... dataStructures/dataStructure.i"
-	@echo "... dataStructures/dataStructure.s"
 	@echo "... executers/executers.o"
 	@echo "... executers/executers.i"
 	@echo "... executers/executers.s"

@@ -33,6 +33,12 @@ int main(int argc , char* argv[]) {
     Thread_info* info = malloc(sizeof(*info));
     info->params.mat1= readFromFile(src1);
     info->params.mat2= readFromFile(src2);
+    //
+        if(info->params.mat2->rows != info->params.mat1->cols){
+            fprintf(stderr,"Mismatch in the sizes of the two input arrays\n");
+            exit(1);
+        }
+    //
     calculateTime(info,&threadByCell);
     writeIntoFile(strcat(dest1,"_1"),info->res);
     calculateTime(info,&threadByRow);

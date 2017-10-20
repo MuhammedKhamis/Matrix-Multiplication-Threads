@@ -5,7 +5,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/Matrix_Multiplication_Threads.dir/executers/executers.c.o"
   "CMakeFiles/Matrix_Multiplication_Threads.dir/memoryManagement/memoryManagement.c.o"
   "CMakeFiles/Matrix_Multiplication_Threads.dir/threadMaker/threadMaker.c.o"
-  "CMakeFiles/Matrix_Multiplication_Threads.dir/dataStructures/dataStructure.c.o"
   "Matrix_Multiplication_Threads.pdb"
   "Matrix_Multiplication_Threads"
 )

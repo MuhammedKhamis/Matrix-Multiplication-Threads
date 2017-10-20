@@ -26,7 +26,5 @@ typedef struct Thread_info{
 
 }Thread_info;
 
-Matrix* getEmptyMatrix(int row,int col);
-
 
 #endif //MATRIX_MULTIPLICATION_THREADS_DATASTRUCTURE_H

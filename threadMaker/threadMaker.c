@@ -1,10 +1,16 @@
 #include "threadMaker.h"
 #include "../executers/executers.h"
 #include "../constants/constants.h"
+#include "../memoryManagement/memoryManagement.h"
 
 #include <pthread.h>
 #include <stdlib.h>
 #include <stdio.h>
+
+
+void errorMessege(){
+    fprintf(stderr,"Can't create this Thread\n");
+}
 
 int threadByCell(Thread_info* info){
     int sz = (info->params.mat1->rows) * (info->params.mat2->cols);
@@ -24,6 +30,7 @@ int threadByCell(Thread_info* info){
         tmp->params.col = (i%info->params.mat1->rows);
         int rc = pthread_create(&threads[i], NULL, computeCell, (void *)tmp);
         if (rc){
+            errorMessege();
             exit(-1);
         }
     }
@@ -52,6 +59,7 @@ int threadByRow(Thread_info* info){
         tmp->params.row=i;
         int rc = pthread_create(&threads[i], NULL, computeRow, (void *)tmp);
         if (rc){
+            errorMessege();
             exit(-1);
         }
     }
@@ -68,6 +76,7 @@ int threadByMatrix(Thread_info* info){
     info->res=getEmptyMatrix(info->params.mat1->rows,info->params.mat2->cols);
     int rc = pthread_create(&thread, NULL, computeAll, (void *)info);
     if (rc){
+        errorMessege();
         exit(-1);
     }
     pthread_join(thread,NULL);

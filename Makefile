@@ -1,11 +1,8 @@
-output: main.o dataStructure.o executers.o fileHandler.o memoryManagement.o threadMaker.o timeCalculator.o
-		gcc main.o dataStructure.o executers.o fileHandler.o memoryManagement.o threadMaker.o timeCalculator.o -o matmult.out -lpthread
+output: main.o executers.o fileHandler.o memoryManagement.o threadMaker.o timeCalculator.o
+		gcc main.o executers.o fileHandler.o memoryManagement.o threadMaker.o timeCalculator.o -o matmult.out -lpthread
 
 main.o: main.c
 		gcc -c main.c
-
-dataStructure.o: dataStructures/dataStructure.c
-		gcc -c dataStructures/dataStructure.c
 
 executers.o: executers/executers.c
 		gcc -c executers/executers.c

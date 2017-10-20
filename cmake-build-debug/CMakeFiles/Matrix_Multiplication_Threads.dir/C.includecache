@@ -8,14 +8,6 @@
 
 /media/muhammed/Shared/Work/CSED 19/C/3rd Year/Operating System/Matrix-Multiplication-Threads/constants/constants.h
 
-/media/muhammed/Shared/Work/CSED 19/C/3rd Year/Operating System/Matrix-Multiplication-Threads/dataStructures/dataStructure.c
-dataStructure.h
-/media/muhammed/Shared/Work/CSED 19/C/3rd Year/Operating System/Matrix-Multiplication-Threads/dataStructures/dataStructure.h
-stdlib.h
--
-memory.h
--
-
 /media/muhammed/Shared/Work/CSED 19/C/3rd Year/Operating System/Matrix-Multiplication-Threads/dataStructures/dataStructure.h
 
 /media/muhammed/Shared/Work/CSED 19/C/3rd Year/Operating System/Matrix-Multiplication-Threads/executers/executers.c
@@ -63,6 +55,8 @@ memoryManagement.h
 /media/muhammed/Shared/Work/CSED 19/C/3rd Year/Operating System/Matrix-Multiplication-Threads/memoryManagement/memoryManagement.h
 stdlib.h
 -
+memory.h
+-
 
 /media/muhammed/Shared/Work/CSED 19/C/3rd Year/Operating System/Matrix-Multiplication-Threads/memoryManagement/memoryManagement.h
 ../dataStructures/dataStructure.h
@@ -75,6 +69,8 @@ threadMaker.h
 /media/muhammed/Shared/Work/CSED 19/C/3rd Year/Operating System/Matrix-Multiplication-Threads/executers/executers.h
 ../constants/constants.h
 /media/muhammed/Shared/Work/CSED 19/C/3rd Year/Operating System/Matrix-Multiplication-Threads/constants/constants.h
+../memoryManagement/memoryManagement.h
+/media/muhammed/Shared/Work/CSED 19/C/3rd Year/Operating System/Matrix-Multiplication-Threads/memoryManagement/memoryManagement.h
 pthread.h
 -
 stdlib.h
